@@ -7,12 +7,12 @@
   "author": "Simon He",
   "license": "MIT",
   "funding": "https://github.com/sponsors/Simon-He95",
-  "homepage": "https://github.com/common-intellisense/vuetify3#readme",
+  "homepage": "https://github.com/common-intellisense/vuetify#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/common-intellisense/vuetify3.git"
+    "url": "git+https://github.com/common-intellisense/vuetify.git"
   },
-  "bugs": "https://github.com/common-intellisense/vuetify3/issues",
+  "bugs": "https://github.com/common-intellisense/vuetify/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
