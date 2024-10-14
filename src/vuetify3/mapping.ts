@@ -48,10 +48,12 @@ import counter from './counter.json'
 import dataIterator from './dataIterator.json'
 import dataTable from './dataTable.json'
 import dataTableFooter from './dataTableFooter.json'
+import dataTableHeaders from './dataTableHeaders.json'
 import dataTableRow from './dataTableRow.json'
 import dataTableRows from './dataTableRows.json'
 import dataTableServer from './dataTableServer.json'
 import dataTableVirtual from './dataTableVirtual.json'
+import dateInput from './dateInput.json'
 import datePicker from './datePicker.json'
 import datePickerControls from './datePickerControls.json'
 import datePickerHeader from './datePickerHeader.json'
@@ -202,6 +204,8 @@ export function getPropsMap() {
     counter,
     dataIterator,
     dataTable,
+    dateInput,
+    dataTableHeaders,
     dataTableFooter,
     dataTableRow,
     dataTableRows,
@@ -392,6 +396,8 @@ export function getComponentMap(isZh: boolean) {
         [counter, 'counter', `<${hyphenate(counter.name)}></${hyphenate(counter.name)}>`],
         [dataIterator, 'dataIterator', `<${hyphenate(dataIterator.name)}></${hyphenate(dataIterator.name)}>`],
         [dataTable, 'dataTable', `<${hyphenate(dataTable.name)}></${hyphenate(dataTable.name)}>`],
+        [dateInput, 'dateInput', `<${hyphenate(dateInput.name)}></${hyphenate(dateInput.name)}>`],
+        [dataTableHeaders, 'dataTableHeaders', `<${hyphenate(dataTableHeaders.name)}></${hyphenate(dataTableHeaders.name)}>`],
         [dataTableFooter, 'dataTableFooter', `<${hyphenate(dataTableFooter.name)}></${hyphenate(dataTableFooter.name)}>`],
         [dataTableRow, 'dataTableRow', `<${hyphenate(dataTableRow.name)}></${hyphenate(dataTableRow.name)}>`],
         [dataTableRows, 'dataTableRows', `<${hyphenate(dataTableRows.name)}></${hyphenate(dataTableRows.name)}>`],
@@ -598,6 +604,8 @@ export function getComponentMap(isZh: boolean) {
         [counter, 'counter', `<${hyphenate(counter.name)}></${hyphenate(counter.name)}>`],
         [dataIterator, 'dataIterator', `<${hyphenate(dataIterator.name)}></${hyphenate(dataIterator.name)}>`],
         [dataTable, 'dataTable', `<${hyphenate(dataTable.name)}></${hyphenate(dataTable.name)}>`],
+        [dateInput, 'dateInput', `<${hyphenate(dateInput.name)}></${hyphenate(dateInput.name)}>`],
+        [dataTableHeaders, 'dataTableHeaders', `<${hyphenate(dataTableHeaders.name)}></${hyphenate(dataTableHeaders.name)}>`],
         [dataTableFooter, 'dataTableFooter', `<${hyphenate(dataTableFooter.name)}></${hyphenate(dataTableFooter.name)}>`],
         [dataTableRow, 'dataTableRow', `<${hyphenate(dataTableRow.name)}></${hyphenate(dataTableRow.name)}>`],
         [dataTableRows, 'dataTableRows', `<${hyphenate(dataTableRows.name)}></${hyphenate(dataTableRows.name)}>`],
