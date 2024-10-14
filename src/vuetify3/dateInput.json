@@ -7,7 +7,7 @@
       "type": "boolean",
       "version": "",
       "description": "Controls the active state of the item. This is typically used to highlight the component.",
-      "description_zh": "控制项的活动状态。这通常用于突出显示组件。",
+      "description_zh": "Controls the active state of the item. This is typically used to highlight the component.",
       "required": false
     },
     "allowed-dates": {
@@ -16,7 +16,7 @@
       "type": "unknown[] | ((date: unknown) => boolean)",
       "version": "",
       "description": "Restricts which dates can be selected.",
-      "description_zh": "限制可以选择的日期。",
+      "description_zh": "Restricts which dates can be selected.",
       "required": false
     },
     "append-icon": {
@@ -25,7 +25,7 @@
       "type": "  | string  | (string | [string, number])[]  | (new () => any)  | FunctionalComponent",
       "version": "",
       "description": "Creates a v-icon component after default content in the append slot.",
-      "description_zh": "在附加插槽中的默认内容之后创建一个 v 图标组件。",
+      "description_zh": "Creates a v-icon component after default content in the append slot.",
       "required": false
     },
     "append-inner-icon": {
@@ -34,7 +34,7 @@
       "type": "  | string  | (string | [string, number])[]  | (new () => any)  | FunctionalComponent",
       "version": "",
       "description": "Creates a v-icon component in the append-inner slot.",
-      "description_zh": "在 append-inner 插槽中创建 v-icon 组件。",
+      "description_zh": "Creates a v-icon component in the append-inner slot.",
       "required": false
     },
     "autofocus": {
@@ -43,7 +43,7 @@
       "type": "boolean",
       "version": "",
       "description": "Enables autofocus.",
-      "description_zh": "启用自动对焦。",
+      "description_zh": "Enables autofocus.",
       "required": false
     },
     "base-color": {
@@ -52,7 +52,7 @@
       "type": "string",
       "version": "",
       "description": "Sets the color of the input when it is not focused.",
-      "description_zh": "设置输入未聚焦时的颜色。",
+      "description_zh": "Sets the color of the input when it is not focused.",
       "required": false
     },
     "bg-color": {
@@ -61,7 +61,7 @@
       "type": "string",
       "version": "",
       "description": "Applies specified color to the control’s background. Used on components that also support the color prop. - supports utility colors (for example success or purple) or css color (#033 or rgba(255, 0, 0, 0.5)). Find a list of built-in classes on the colors page.",
-      "description_zh": "将指定的颜色应用于控件的背景。用于也支持 color 属性的组件。- 支持实用工具颜色（例如 Success 或 Purple）或 CSS 颜色（#033 或 RGBA（255， 0， 0， 0.5））。在 colors 页面上查找内置类的列表。",
+      "description_zh": "Applies specified color to the control’s background. Used on components that also support the color prop. - supports utility colors (for example success or purple) or css color (#033 or rgba(255, 0, 0, 0.5)). Find a list of built-in classes on the colors page.",
       "required": false
     },
     "border": {
@@ -70,7 +70,7 @@
       "type": "string | number | boolean",
       "version": "",
       "description": "Designates the border-radius applied to the component. This can be xs, sm, md, lg, xl.",
-      "description_zh": "指定应用于组件的 border-radius。这可以是 xs、sm、md、lg、xl。",
+      "description_zh": "Designates the border-radius applied to the component. This can be xs, sm, md, lg, xl.",
       "required": false
     },
     "cancel-text": {
@@ -79,7 +79,7 @@
       "type": "string",
       "version": "",
       "description": "Text for the cancel button",
-      "description_zh": "取消按钮的文本",
+      "description_zh": "Text for the cancel button",
       "required": false
     },
     "center-affix": {
@@ -88,7 +88,7 @@
       "type": "boolean",
       "version": "",
       "description": "Vertically align appendInner, prependInner, clearIcon and label in the center.",
-      "description_zh": "将 appendInner、prependInner、clearIcon 和 label 垂直对齐在中心。",
+      "description_zh": "Vertically align appendInner, prependInner, clearIcon and label in the center.",
       "required": false
     },
     "clearable": {
@@ -97,7 +97,7 @@
       "type": "boolean",
       "version": "",
       "description": "Allows for the component to be cleared.",
-      "description_zh": "允许清除组件。",
+      "description_zh": "Allows for the component to be cleared.",
       "required": false
     },
     "clear-icon": {
@@ -106,7 +106,7 @@
       "type": "  | string  | (string | [string, number])[]  | (new () => any)  | FunctionalComponent",
       "version": "",
       "description": "The icon used when the clearable prop is set to true.",
-      "description_zh": "当 clearable prop 设置为 true 时使用的图标。",
+      "description_zh": "The icon used when the clearable prop is set to true.",
       "required": false
     },
     "color": {
@@ -115,7 +115,7 @@
       "type": "string",
       "version": "",
       "description": "Applies specified color to the control - supports utility colors (for example success or purple) or css color (#033 or rgba(255, 0, 0, 0.5)). Find a list of built-in classes on the colors page.",
-      "description_zh": "将指定的颜色应用于控件 - 支持实用工具颜色（例如 success 或紫色）或 css 颜色（#033 或 rgba（255， 0， 0， 0.5））。在 colors 页面上查找内置类的列表。",
+      "description_zh": "Applies specified color to the control - supports utility colors (for example success or purple) or css color (#033 or rgba(255, 0, 0, 0.5)). Find a list of built-in classes on the colors page.",
       "required": false
     },
     "counter": {
@@ -124,7 +124,7 @@
       "type": "string | number | boolean",
       "version": "",
       "description": "Creates counter for input length; if no number is specified, it defaults to 25. Does not apply any validation.",
-      "description_zh": "为 input length 创建 counter;如果未指定数字，则默认为 25。不应用任何验证。",
+      "description_zh": "Creates counter for input length; if no number is specified, it defaults to 25. Does not apply any validation.",
       "required": false
     },
     "counter-value": {
@@ -133,7 +133,7 @@
       "type": "number | ((value: any) => number)",
       "version": "",
       "description": "Function returns the counter display text.",
-      "description_zh": "function 返回计数器显示文本。",
+      "description_zh": "Function returns the counter display text.",
       "required": false
     },
     "density": {
@@ -142,7 +142,7 @@
       "type": "'default' | 'comfortable' | 'compact'",
       "version": "",
       "description": "Adjusts the vertical height used by the component.",
-      "description_zh": "调整组件使用的垂直高度。",
+      "description_zh": "Adjusts the vertical height used by the component.",
       "required": false
     },
     "direction": {
@@ -151,7 +151,7 @@
       "type": "'horizontal' | 'vertical'",
       "version": "",
       "description": "Changes the direction of the input.",
-      "description_zh": "更改输入的方向。",
+      "description_zh": "Changes the direction of the input.",
       "required": false
     },
     "dirty": {
@@ -160,7 +160,7 @@
       "type": "boolean",
       "version": "",
       "description": "Manually apply the dirty state styling.",
-      "description_zh": "手动应用 dirty state 样式。",
+      "description_zh": "Manually apply the dirty state styling.",
       "required": false
     },
     "disabled": {
@@ -169,7 +169,7 @@
       "type": "boolean",
       "version": "",
       "description": "Removes the ability to click or target the input.",
-      "description_zh": "删除单击或定位输入的功能。",
+      "description_zh": "Removes the ability to click or target the input.",
       "required": false
     },
     "display-value": {
@@ -178,7 +178,7 @@
       "type": "unknown",
       "version": "",
       "description": "The value that determines the month to show. This is different from modelValue, which determines the selected value.",
-      "description_zh": "确定要显示的月份的值。这与 modelValue 不同，modelValue 确定所选值。",
+      "description_zh": "The value that determines the month to show. This is different from modelValue, which determines the selected value.",
       "required": false
     },
     "elevation": {
@@ -187,7 +187,7 @@
       "type": "string | number",
       "version": "",
       "description": "Designates an elevation applied to the component between 0 and 24. You can find more information on the elevation page.",
-      "description_zh": "指定应用于组件的 0 到 24 之间的高程。您可以在海拔页面上找到更多信息。",
+      "description_zh": "Designates an elevation applied to the component between 0 and 24. You can find more information on the elevation page.",
       "required": false
     },
     "error": {
@@ -196,7 +196,7 @@
       "type": "boolean",
       "version": "",
       "description": "Puts the input in a manual error state.",
-      "description_zh": "将输入置于手动错误状态。",
+      "description_zh": "Puts the input in a manual error state.",
       "required": false
     },
     "error-messages": {
@@ -205,7 +205,7 @@
       "type": "string | string[]",
       "version": "",
       "description": "Puts the input in an error state and passes through custom error messages. Will be combined with any validations that occur from the rules prop. This field will not trigger validation.",
-      "description_zh": "将输入置于错误状态并传递自定义错误消息。将与 rules prop 发生的任何验证相结合。此字段不会触发验证。",
+      "description_zh": "Puts the input in an error state and passes through custom error messages. Will be combined with any validations that occur from the rules prop. This field will not trigger validation.",
       "required": false
     },
     "first-day-of-week": {
@@ -214,7 +214,7 @@
       "type": "string | number",
       "version": "",
       "description": "Sets the first day of the week, starting with 0 for Sunday.",
-      "description_zh": "设置一周的第一天，从 0 开始表示星期日。",
+      "description_zh": "Sets the first day of the week, starting with 0 for Sunday.",
       "required": false
     },
     "flat": {
@@ -223,7 +223,7 @@
       "type": "boolean",
       "version": "",
       "description": "Removes box shadow when using a variant with elevation.",
-      "description_zh": "使用具有高程的变量时删除框阴影。",
+      "description_zh": "Removes box shadow when using a variant with elevation.",
       "required": false
     },
     "focused": {
@@ -232,7 +232,7 @@
       "type": "boolean",
       "version": "",
       "description": "Forces a focused state styling on the component.",
-      "description_zh": "强制对组件进行 focused state 样式设置。",
+      "description_zh": "Forces a focused state styling on the component.",
       "required": false
     },
     "header": {
@@ -241,7 +241,7 @@
       "type": "string",
       "version": "",
       "description": "Text shown when no display-date is set.",
-      "description_zh": "未设置显示日期时显示的文本。",
+      "description_zh": "Text shown when no display-date is set.",
       "required": false
     },
     "height": {
@@ -250,7 +250,7 @@
       "type": "string | number",
       "version": "",
       "description": "Sets the height of the input.",
-      "description_zh": "设置输入的高度。",
+      "description_zh": "Sets the height of the input.",
       "required": false
     },
     "hide-actions": {
@@ -259,7 +259,7 @@
       "type": "boolean",
       "version": "",
       "description": "MISSING DESCRIPTION (edit in github)",
-      "description_zh": "缺少描述（在 github 中编辑）",
+      "description_zh": "MISSING DESCRIPTION (edit in github)",
       "required": false
     },
     "hide-details": {
@@ -268,7 +268,7 @@
       "type": "boolean | 'auto'",
       "version": "",
       "description": "Hides hint and validation errors. When set to auto messages will be rendered only if there’s a message (hint, error message, counter value etc) to display.",
-      "description_zh": "隐藏提示和验证错误。当设置为 auto 时，仅当有消息 （提示、错误消息、计数器值等） 要显示时，才会呈现消息。",
+      "description_zh": "Hides hint and validation errors. When set to auto messages will be rendered only if there’s a message (hint, error message, counter value etc) to display.",
       "required": false
     },
     "hide-header": {
@@ -277,7 +277,7 @@
       "type": "boolean",
       "version": "",
       "description": "Hide the picker header.",
-      "description_zh": "隐藏选取器标题。",
+      "description_zh": "Hide the picker header.",
       "required": false
     },
     "hide-spin-buttons": {
@@ -286,7 +286,7 @@
       "type": "boolean",
       "version": "",
       "description": "Hides spin buttons on the input when type is set to number.",
-      "description_zh": "当 type 设置为 number 时，隐藏输入上的旋转按钮。",
+      "description_zh": "Hides spin buttons on the input when type is set to number.",
       "required": false
     },
     "hide-weekdays": {
@@ -295,7 +295,7 @@
       "type": "boolean",
       "version": "",
       "description": "Hide the days of the week letters.",
-      "description_zh": "隐藏星期几字母。",
+      "description_zh": "Hide the days of the week letters.",
       "required": false
     },
     "hint": {
@@ -304,7 +304,7 @@
       "type": "string",
       "version": "",
       "description": "Displays hint text below the input when focused. Force this always open with the persistent-hint property.",
-      "description_zh": "聚焦时，在输入下方显示提示文本。使用 persistent-hint 属性强制 this always 打开。",
+      "description_zh": "Displays hint text below the input when focused. Force this always open with the persistent-hint property.",
       "required": false
     },
     "id": {
@@ -313,7 +313,7 @@
       "type": "string",
       "version": "",
       "description": "Sets the DOM id on the component.",
-      "description_zh": "设置组件上的 DOM ID。",
+      "description_zh": "Sets the DOM id on the component.",
       "required": false
     },
     "label": {
@@ -322,7 +322,7 @@
       "type": "string",
       "version": "",
       "description": "Sets the text of the v-label or v-field-label component.",
-      "description_zh": "设置 v-label 或 v-field-label 组件的文本。",
+      "description_zh": "Sets the text of the v-label or v-field-label component.",
       "required": false
     },
     "landscape": {
@@ -331,7 +331,7 @@
       "type": "boolean",
       "version": "",
       "description": "Puts the picker into landscape mode.",
-      "description_zh": "将选取器置于横向模式。",
+      "description_zh": "Puts the picker into landscape mode.",
       "required": false
     },
     "loading": {
@@ -340,7 +340,7 @@
       "type": "string | boolean",
       "version": "",
       "description": "Displays linear progress bar. Can either be a String which specifies which color is applied to the progress bar (any material color or theme color - primary, secondary, success, info, warning, error) or a Boolean which uses the component color (set by color prop - if it’s supported by the component) or the primary color.",
-      "description_zh": "显示线性进度条。可以是指定应用于进度条的颜色的 String（任何材料颜色或主题颜色 - primary、secondary、success、info、warning、error），也可以是使用组件颜色（由 color 属性设置 - 如果组件支持）或主要颜色的 Boolean。",
+      "description_zh": "Displays linear progress bar. Can either be a String which specifies which color is applied to the progress bar (any material color or theme color - primary, secondary, success, info, warning, error) or a Boolean which uses the component color (set by color prop - if it’s supported by the component) or the primary color.",
       "required": false
     },
     "location": {
@@ -349,7 +349,7 @@
       "type": "Anchor",
       "version": "",
       "description": "Specifies the component’s location. Can combine by using a space separated string.",
-      "description_zh": "指定组件的位置。可以使用空格分隔的字符串进行组合。",
+      "description_zh": "Specifies the component’s location. Can combine by using a space separated string.",
       "required": false
     },
     "max": {
@@ -358,7 +358,7 @@
       "type": "unknown",
       "version": "",
       "description": "Maximum allowed date/month (ISO 8601 format).",
-      "description_zh": "允许的最大日期/月（ISO 8601 格式）。",
+      "description_zh": "Maximum allowed date/month (ISO 8601 format).",
       "required": false
     },
     "max-errors": {
@@ -367,7 +367,7 @@
       "type": "string | number",
       "version": "",
       "description": "Control the maximum number of shown errors from validation.",
-      "description_zh": "控制验证时显示的错误的最大数量。",
+      "description_zh": "Control the maximum number of shown errors from validation.",
       "required": false
     },
     "max-height": {
@@ -376,7 +376,7 @@
       "type": "string | number",
       "version": "",
       "description": "Sets the maximum height for the component.",
-      "description_zh": "设置组件的最大高度。",
+      "description_zh": "Sets the maximum height for the component.",
       "required": false
     },
     "max-width": {
@@ -385,7 +385,7 @@
       "type": "string | number",
       "version": "",
       "description": "Sets the maximum width for the component.",
-      "description_zh": "设置组件的最大宽度。",
+      "description_zh": "Sets the maximum width for the component.",
       "required": false
     },
     "messages": {
@@ -394,7 +394,7 @@
       "type": "string | string[]",
       "version": "",
       "description": "Displays a list of messages or a single message if using a string.",
-      "description_zh": "显示消息列表，如果使用字符串，则显示单个消息。",
+      "description_zh": "Displays a list of messages or a single message if using a string.",
       "required": false
     },
     "min": {
@@ -403,7 +403,7 @@
       "type": "unknown",
       "version": "",
       "description": "Minimum allowed date/month (ISO 8601 format).",
-      "description_zh": "允许的最小日期/月份 （ISO 8601 格式）。",
+      "description_zh": "Minimum allowed date/month (ISO 8601 format).",
       "required": false
     },
     "min-height": {
@@ -412,7 +412,7 @@
       "type": "string | number",
       "version": "",
       "description": "Sets the minimum height for the component.",
-      "description_zh": "设置组件的最小高度。",
+      "description_zh": "Sets the minimum height for the component.",
       "required": false
     },
     "min-width": {
@@ -421,7 +421,7 @@
       "type": "string | number",
       "version": "",
       "description": "Sets the minimum width for the component.",
-      "description_zh": "设置组件的最小宽度。",
+      "description_zh": "Sets the minimum width for the component.",
       "required": false
     },
     "mode-icon": {
@@ -430,7 +430,7 @@
       "type": "  | string  | (string | [string, number])[]  | (new () => any)  | FunctionalComponent",
       "version": "",
       "description": "Icon displayed next to the current month and year, toggles year selection when clicked.",
-      "description_zh": "图标显示在当前月份和年份旁边，单击时切换年份选择。",
+      "description_zh": "Icon displayed next to the current month and year, toggles year selection when clicked.",
       "required": false
     },
     "v-model": {
@@ -439,7 +439,7 @@
       "type": "any",
       "version": "",
       "description": "The v-model value of the component. If component supports the multiple prop, this defaults to an empty array.",
-      "description_zh": "组件的 v-model 值。如果 component 支持 multiple prop，则默认为空数组。",
+      "description_zh": "The v-model value of the component. If component supports the multiple prop, this defaults to an empty array.",
       "required": false
     },
     "month": {
@@ -448,7 +448,7 @@
       "type": "string | number",
       "version": "",
       "description": "The current month number to show",
-      "description_zh": "要显示的当前月份数",
+      "description_zh": "The current month number to show",
       "required": false
     },
     "multiple": {
@@ -457,7 +457,7 @@
       "type": "number | boolean | (string & {}) | 'range'",
       "version": "",
       "description": "Allow the selection of multiple dates. The range value selects all dates between two selections.",
-      "description_zh": "允许选择多个日期。范围值选择两个选择之间的所有日期。",
+      "description_zh": "Allow the selection of multiple dates. The range value selects all dates between two selections.",
       "required": false
     },
     "name": {
@@ -466,7 +466,7 @@
       "type": "string",
       "version": "",
       "description": "Sets the component’s name attribute.",
-      "description_zh": "设置组件的 name 属性。",
+      "description_zh": "Sets the component’s name attribute.",
       "required": false
     },
     "next-icon": {
@@ -475,7 +475,7 @@
       "type": "  | string  | (string | [string, number])[]  | (new () => any)  | FunctionalComponent",
       "version": "",
       "description": "Sets the icon for next month/year button.",
-      "description_zh": "设置下个月/年度的图标按钮。",
+      "description_zh": "Sets the icon for next month/year button.",
       "required": false
     },
     "ok-text": {
@@ -484,7 +484,7 @@
       "type": "string",
       "version": "",
       "description": "Text for the ok button",
-      "description_zh": "确定按钮的文本",
+      "description_zh": "Text for the ok button",
       "required": false
     },
     "persistent-clear": {
@@ -493,7 +493,7 @@
       "type": "boolean",
       "version": "",
       "description": "Always show the clearable icon when the input is dirty (By default it only shows on hover).",
-      "description_zh": "当输入脏时，始终显示可清除图标（默认情况下，它仅在悬停时显示）。",
+      "description_zh": "Always show the clearable icon when the input is dirty (By default it only shows on hover).",
       "required": false
     },
     "persistent-counter": {
@@ -502,7 +502,7 @@
       "type": "boolean",
       "version": "",
       "description": "Forces counter to always be visible.",
-      "description_zh": "强制计数器始终可见。",
+      "description_zh": "Forces counter to always be visible.",
       "required": false
     },
     "persistent-hint": {
@@ -511,7 +511,7 @@
       "type": "boolean",
       "version": "",
       "description": "Forces hint to always be visible.",
-      "description_zh": "强制提示始终可见。",
+      "description_zh": "Forces hint to always be visible.",
       "required": false
     },
     "persistent-placeholder": {
@@ -520,7 +520,7 @@
       "type": "boolean",
       "version": "",
       "description": "Forces placeholder to always be visible.",
-      "description_zh": "强制占位符始终可见。",
+      "description_zh": "Forces placeholder to always be visible.",
       "required": false
     },
     "placeholder": {
@@ -529,7 +529,7 @@
       "type": "string",
       "version": "",
       "description": "Sets the input’s placeholder text.",
-      "description_zh": "设置输入的占位符文本。",
+      "description_zh": "Sets the input’s placeholder text.",
       "required": false
     },
     "position": {
@@ -538,7 +538,7 @@
       "type": "'static' | 'relative' | 'fixed' | 'absolute' | 'sticky'",
       "version": "",
       "description": "Sets the position for the component.",
-      "description_zh": "设置零部件的位置。",
+      "description_zh": "Sets the position for the component.",
       "required": false
     },
     "prefix": {
@@ -547,7 +547,7 @@
       "type": "string",
       "version": "",
       "description": "Displays prefix text.",
-      "description_zh": "显示前缀文本。",
+      "description_zh": "Displays prefix text.",
       "required": false
     },
     "prepend-icon": {
@@ -556,7 +556,7 @@
       "type": "  | string  | (string | [string, number])[]  | (new () => any)  | FunctionalComponent",
       "version": "",
       "description": "Prepends an icon to the outnside the component’s input, uses the same syntax as v-icon.",
-      "description_zh": "在组件输入的外部预置一个图标，使用与 v-icon 相同的语法。",
+      "description_zh": "Prepends an icon to the outnside the component’s input, uses the same syntax as v-icon.",
       "required": false
     },
     "prepend-inner-icon": {
@@ -565,7 +565,7 @@
       "type": "  | string  | (string | [string, number])[]  | (new () => any)  | FunctionalComponent",
       "version": "",
       "description": "Creates a v-icon component in the prepend-inner slot.",
-      "description_zh": "在 prepend-inner 插槽中创建一个 v-icon 组件。",
+      "description_zh": "Creates a v-icon component in the prepend-inner slot.",
       "required": false
     },
     "prev-icon": {
@@ -574,7 +574,7 @@
       "type": "  | string  | (string | [string, number])[]  | (new () => any)  | FunctionalComponent",
       "version": "",
       "description": "Sets the icon for previous month/year button.",
-      "description_zh": "设置上个月/年份的图标按钮。",
+      "description_zh": "Sets the icon for previous month/year button.",
       "required": false
     },
     "readonly": {
@@ -583,7 +583,7 @@
       "type": "boolean",
       "version": "",
       "description": "Makes the picker readonly (doesn’t allow to select new date).",
-      "description_zh": "将选取器设置为只读（不允许选择新日期）。",
+      "description_zh": "Makes the picker readonly (doesn’t allow to select new date).",
       "required": false
     },
     "reverse": {
@@ -592,7 +592,7 @@
       "type": "boolean",
       "version": "",
       "description": "Reverses the orientation.",
-      "description_zh": "反转方向。",
+      "description_zh": "Reverses the orientation.",
       "required": false
     },
     "reverse-transition": {
@@ -601,7 +601,7 @@
       "type": "string",
       "version": "",
       "description": "The transition used when changing months into the past",
-      "description_zh": "将月份更改为过去时使用的过渡",
+      "description_zh": "The transition used when changing months into the past",
       "required": false
     },
     "role": {
@@ -610,7 +610,7 @@
       "type": "string",
       "version": "",
       "description": "The role attribute applied to the input.",
-      "description_zh": "应用于输入的 role 属性。",
+      "description_zh": "The role attribute applied to the input.",
       "required": false
     },
     "rounded": {
@@ -619,7 +619,7 @@
       "type": "string | number | boolean",
       "version": "",
       "description": "Adds a border radius to the input.",
-      "description_zh": "向输入添加边框半径。",
+      "description_zh": "Adds a border radius to the input.",
       "required": false
     },
     "rules": {
@@ -628,7 +628,7 @@
       "type": "ValidationRule[]",
       "version": "",
       "description": "Accepts a mixed array of types function, boolean and string. Functions pass an input value as an argument and must return either true / false or a string containing an error message. The input field will enter an error state if a function returns (or any value in the array contains) false or is a string.",
-      "description_zh": "接受 function、boolean 和 string 类型的混合数组。函数将输入值作为参数传递，并且必须返回 true / false 或包含错误消息的字符串。如果函数返回 （或数组中的任何值包含） false 或为字符串，则输入字段将进入错误状态。",
+      "description_zh": "Accepts a mixed array of types function, boolean and string. Functions pass an input value as an argument and must return either true / false or a string containing an error message. The input field will enter an error state if a function returns (or any value in the array contains) false or is a string.",
       "required": false
     },
     "show-adjacent-months": {
@@ -637,7 +637,7 @@
       "type": "boolean",
       "version": "",
       "description": "Toggles visibility of days from previous and next months.",
-      "description_zh": "切换上个月和下个月的日期的可见性。",
+      "description_zh": "Toggles visibility of days from previous and next months.",
       "required": false
     },
     "show-week": {
@@ -646,7 +646,7 @@
       "type": "boolean",
       "version": "",
       "description": "Toggles visibility of the week numbers in the body of the calendar.",
-      "description_zh": "切换日历正文中周数的可见性。",
+      "description_zh": "Toggles visibility of the week numbers in the body of the calendar.",
       "required": false
     },
     "single-line": {
@@ -655,7 +655,7 @@
       "type": "boolean",
       "version": "",
       "description": "Label does not move on focus/dirty.",
-      "description_zh": "标签在聚焦/脏污时不移动。",
+      "description_zh": "Label does not move on focus/dirty.",
       "required": false
     },
     "suffix": {
@@ -664,7 +664,7 @@
       "type": "string",
       "version": "",
       "description": "Displays suffix text.",
-      "description_zh": "显示后缀文本。",
+      "description_zh": "Displays suffix text.",
       "required": false
     },
     "tag": {
@@ -673,7 +673,7 @@
       "type": "string",
       "version": "",
       "description": "Specify a custom tag used on the root element.",
-      "description_zh": "指定根元素上使用的自定义标记。",
+      "description_zh": "Specify a custom tag used on the root element.",
       "required": false
     },
     "text": {
@@ -682,7 +682,7 @@
       "type": "string",
       "version": "",
       "description": "Specify content text for the component.",
-      "description_zh": "指定组件的内容文本。",
+      "description_zh": "Specify content text for the component.",
       "required": false
     },
     "theme": {
@@ -691,7 +691,7 @@
       "type": "string",
       "version": "",
       "description": "Specify a theme for this component and all of its children.",
-      "description_zh": "为此组件及其所有子组件指定主题。",
+      "description_zh": "Specify a theme for this component and all of its children.",
       "required": false
     },
     "tile": {
@@ -700,7 +700,7 @@
       "type": "boolean",
       "version": "",
       "description": "Removes any applied border-radius from the component.",
-      "description_zh": "从组件中删除任何应用的 border-radius。",
+      "description_zh": "Removes any applied border-radius from the component.",
       "required": false
     },
     "title": {
@@ -709,7 +709,7 @@
       "type": "string",
       "version": "",
       "description": "Specify a title text for the component.",
-      "description_zh": "指定组件的标题文本。",
+      "description_zh": "Specify a title text for the component.",
       "required": false
     },
     "transition": {
@@ -718,7 +718,7 @@
       "type": "string",
       "version": "",
       "description": "The transition used when changing months into the future",
-      "description_zh": "将未来月份更改为未来月份时使用的过渡",
+      "description_zh": "The transition used when changing months into the future",
       "required": false
     },
     "type": {
@@ -727,7 +727,7 @@
       "type": "string",
       "version": "",
       "description": "Determines the type of the picker - date for date picker, month for month picker.",
-      "description_zh": "确定选取器的类型 - 日期选取器对应日期，月份对应月份选取器。",
+      "description_zh": "Determines the type of the picker - date for date picker, month for month picker.",
       "required": false
     },
     "validate-on": {
@@ -736,7 +736,7 @@
       "type": "  | 'blur'  | 'input'  | 'submit'  | 'invalid-input'  | 'blur lazy'  | 'input lazy'  | 'submit lazy'  | 'invalid-input lazy'  | 'blur eager'  | 'input eager'  | 'submit eager'  | 'invalid-input eager'  | 'lazy blur'  | 'lazy input'  | 'lazy submit'  | 'lazy invalid-input'  | 'eager blur'  | 'eager input'  | 'eager submit'  | 'eager invalid-input'  | 'lazy'  | 'eager'",
       "version": "",
       "description": "Change what type of event triggers validation to run.",
-      "description_zh": "更改触发验证的事件类型以运行。",
+      "description_zh": "Change what type of event triggers validation to run.",
       "required": false
     },
     "validation-value": {
@@ -745,7 +745,7 @@
       "type": "any",
       "version": "",
       "description": "The value used when applying validation rules.",
-      "description_zh": "应用验证规则时使用的值。",
+      "description_zh": "The value used when applying validation rules.",
       "required": false
     },
     "variant": {
@@ -754,7 +754,7 @@
       "type": "  | 'underlined'  | 'outlined'  | 'filled'  | 'solo'  | 'solo-inverted'  | 'solo-filled'  | 'plain'",
       "version": "",
       "description": "Applies a distinct style to the component.",
-      "description_zh": "将不同的样式应用于组件。",
+      "description_zh": "Applies a distinct style to the component.",
       "required": false
     },
     "view-mode": {
@@ -763,7 +763,7 @@
       "type": "'month' | 'months' | 'year'",
       "version": "",
       "description": "Determines which picker in the date or month picker is being displayed. Allowed values: 'month', 'months', 'year'.",
-      "description_zh": "确定显示日期或月份选取器中的哪个选取器。允许的值：'month'、'months'、'year'。",
+      "description_zh": "Determines which picker in the date or month picker is being displayed. Allowed values: 'month', 'months', 'year'.",
       "required": false
     },
     "weekdays": {
@@ -772,7 +772,7 @@
       "type": "number[]",
       "version": "",
       "description": "An array of weekdays to display.",
-      "description_zh": "要显示的工作日数组。",
+      "description_zh": "An array of weekdays to display.",
       "required": false
     },
     "weeks-in-month": {
@@ -781,7 +781,7 @@
       "type": "'dynamic' | 'static'",
       "version": "",
       "description": "A dynamic number of weeks in a month will grow and shrink depending on how many days are in the month. A static number always shows 7 weeks.",
-      "description_zh": "一个月中的动态周数将根据该月的天数而增加和减少。静态数字始终显示 7 周。",
+      "description_zh": "A dynamic number of weeks in a month will grow and shrink depending on how many days are in the month. A static number always shows 7 weeks.",
       "required": false
     },
     "width": {
@@ -790,7 +790,7 @@
       "type": "string | number",
       "version": "",
       "description": "Width of the picker.",
-      "description_zh": "选取器的宽度。",
+      "description_zh": "Width of the picker.",
       "required": false
     },
     ":year": {
@@ -799,7 +799,7 @@
       "type": "number",
       "version": "",
       "description": "The current year number to show",
-      "description_zh": "要显示的当前年份编号",
+      "description_zh": "The current year number to show",
       "required": false
     }
   },
@@ -810,51 +810,44 @@
     {
       "name": "click:append",
       "description": "Emitted when append icon is clicked.",
-      "description_zh": "单击附加图标时发出。",
-      "params": "[MouseEvent]",
-      "value": ""
+      "description_zh": "Emitted when append icon is clicked.",
+      "params": "[MouseEvent]"
     },
     {
       "name": "click:appendInner",
       "description": "Emitted when appended inner icon is clicked.",
-      "description_zh": "单击附加的内部图标时发出。",
-      "params": "[MouseEvent]",
-      "value": ""
+      "description_zh": "Emitted when appended inner icon is clicked.",
+      "params": "[MouseEvent]"
     },
     {
       "name": "click:clear",
       "description": "Emitted when clearable icon clicked.",
-      "description_zh": "单击可清除图标时发出。",
-      "params": "[MouseEvent]",
-      "value": ""
+      "description_zh": "Emitted when clearable icon clicked.",
+      "params": "[MouseEvent]"
     },
     {
       "name": "click:prepend",
       "description": "Emitted when prepended icon is clicked.",
-      "description_zh": "单击前置图标时发出。",
-      "params": "[MouseEvent]",
-      "value": ""
+      "description_zh": "Emitted when prepended icon is clicked.",
+      "params": "[MouseEvent]"
     },
     {
       "name": "click:prependInner",
       "description": "Emitted when prepended inner icon is clicked.",
-      "description_zh": "单击前置的内部图标时发出。",
-      "params": "[MouseEvent]",
-      "value": ""
+      "description_zh": "Emitted when prepended inner icon is clicked.",
+      "params": "[MouseEvent]"
     },
     {
       "name": "update:focused",
       "description": "Emitted when the input is focused or blurred",
-      "description_zh": "当输入聚焦或模糊时发出",
-      "params": "[boolean]",
-      "value": ""
+      "description_zh": "Emitted when the input is focused or blurred",
+      "params": "[boolean]"
     },
     {
       "name": "update:modelValue",
       "description": "Event that is emitted when the component’s model changes.",
-      "description_zh": "组件的模型更改时发出的事件。",
-      "params": "[string]",
-      "value": ""
+      "description_zh": "Event that is emitted when the component’s model changes.",
+      "params": "[string]"
     }
   ],
   "methods": [],
@@ -862,7 +855,7 @@
     {
       "name": "default",
       "description": "The default Vue slot.",
-      "description_zh": "默认的 Vue 插槽。",
+      "description_zh": "The default Vue slot.",
       "params": ""
     }
   ],

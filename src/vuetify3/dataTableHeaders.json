@@ -7,7 +7,7 @@
       "type": "string",
       "version": "",
       "description": "Applies specified color to the control - supports utility colors (for example success or purple) or css color (#033 or rgba(255, 0, 0, 0.5)). Find a list of built-in classes on the colors page.",
-      "description_zh": "将指定的颜色应用于控件 - 支持实用工具颜色（例如 success 或紫色）或 css 颜色（#033 或 rgba（255， 0， 0， 0.5））。在 colors 页面上查找内置类的列表。",
+      "description_zh": "Applies specified color to the control - supports utility colors (for example success or purple) or css color (#033 or rgba(255, 0, 0, 0.5)). Find a list of built-in classes on the colors page.",
       "required": false
     },
     "disable-sort": {
@@ -16,7 +16,7 @@
       "type": "boolean",
       "version": "",
       "description": "Toggles rendering of sort button.",
-      "description_zh": "切换排序按钮的渲染。",
+      "description_zh": "Toggles rendering of sort button.",
       "required": false
     },
     "header-props": {
@@ -25,7 +25,7 @@
       "type": "unknown",
       "version": "",
       "description": "MISSING DESCRIPTION (edit in github)",
-      "description_zh": "缺少描述（在 github 中编辑）",
+      "description_zh": "MISSING DESCRIPTION (edit in github)",
       "required": false
     },
     "loading": {
@@ -34,7 +34,7 @@
       "type": "string | boolean",
       "version": "",
       "description": "Displays linear progress bar. Can either be a String which specifies which color is applied to the progress bar (any material color or theme color - primary, secondary, success, info, warning, error) or a Boolean which uses the component color (set by color prop - if it’s supported by the component) or the primary color.",
-      "description_zh": "显示线性进度条。可以是指定应用于进度条的颜色的 String（任何材料颜色或主题颜色 - primary、secondary、success、info、warning、error），也可以是使用组件颜色（由 color 属性设置 - 如果组件支持）或主要颜色的 Boolean。",
+      "description_zh": "Displays linear progress bar. Can either be a String which specifies which color is applied to the progress bar (any material color or theme color - primary, secondary, success, info, warning, error) or a Boolean which uses the component color (set by color prop - if it’s supported by the component) or the primary color.",
       "required": false
     },
     "mobile": {
@@ -43,7 +43,7 @@
       "type": "boolean",
       "version": "",
       "description": "Determines the display mode of the component. If true, the component will be displayed in mobile mode. If false, the component will be displayed in desktop mode. If null, will be based on the current mobile-breakpoint",
-      "description_zh": "确定组件的显示模式。如果为 true，则组件将以移动模式显示。如果为 false，则组件将以桌面模式显示。如果为 null，则将基于当前的 mobile-breakpoint",
+      "description_zh": "Determines the display mode of the component. If true, the component will be displayed in mobile mode. If false, the component will be displayed in desktop mode. If null, will be based on the current mobile-breakpoint",
       "required": false
     },
     "mobile-breakpoint": {
@@ -52,7 +52,7 @@
       "type": "number | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl'",
       "version": "",
       "description": "Overrides the display configuration default screen size that the component should be considered in mobile.",
-      "description_zh": "覆盖组件在移动设备中应考虑的显示配置默认屏幕大小。",
+      "description_zh": "Overrides the display configuration default screen size that the component should be considered in mobile.",
       "required": false
     },
     "multi-sort": {
@@ -61,7 +61,7 @@
       "type": "boolean",
       "version": "",
       "description": "MISSING DESCRIPTION (edit in github)",
-      "description_zh": "缺少描述（在 github 中编辑）",
+      "description_zh": "MISSING DESCRIPTION (edit in github)",
       "required": false
     },
     "sort-asc-icon": {
@@ -70,7 +70,7 @@
       "type": "  | string  | (string | [string, number])[]  | (new () => any)  | FunctionalComponent",
       "version": "",
       "description": "Icon used for ascending sort button.",
-      "description_zh": "用于升序排序按钮的图标。",
+      "description_zh": "Icon used for ascending sort button.",
       "required": false
     },
     "sort-desc-icon": {
@@ -79,7 +79,7 @@
       "type": "  | string  | (string | [string, number])[]  | (new () => any)  | FunctionalComponent",
       "version": "",
       "description": "Icon used for descending sort button.",
-      "description_zh": "用于降序排序按钮的图标。",
+      "description_zh": "Icon used for descending sort button.",
       "required": false
     },
     "sticky": {
@@ -88,7 +88,7 @@
       "type": "boolean",
       "version": "",
       "description": "Sticks the header to the top of the table.",
-      "description_zh": "将标题贴在表格的顶部。",
+      "description_zh": "Sticks the header to the top of the table.",
       "required": false
     }
   },
@@ -101,31 +101,31 @@
     {
       "name": "[`header.${string}`]",
       "description": "MISSING DESCRIPTION (edit in github)",
-      "description_zh": "缺少描述（在 github 中编辑）",
+      "description_zh": "MISSING DESCRIPTION (edit in github)",
       "params": "{\n  column: InternalDataTableHeader\n  selectAll: (value: boolean) => void\n  isSorted: (column: InternalDataTableHeader) => boolean\n  toggleSort: (column: InternalDataTableHeader) => void\n  sortBy: SortItem[]\n  someSelected: boolean\n  allSelected: boolean\n  getSortIcon: (\n    column: InternalDataTableHeader,\n  ) =>\n    | string\n    | (string | [string, number])[]\n    | (new () => any)\n    | FunctionalComponent\n}"
     },
     {
       "name": "header.data-table-expand",
       "description": "MISSING DESCRIPTION (edit in github)",
-      "description_zh": "缺少描述（在 github 中编辑）",
+      "description_zh": "MISSING DESCRIPTION (edit in github)",
       "params": "{\n  column: InternalDataTableHeader\n  selectAll: (value: boolean) => void\n  isSorted: (column: InternalDataTableHeader) => boolean\n  toggleSort: (column: InternalDataTableHeader) => void\n  sortBy: SortItem[]\n  someSelected: boolean\n  allSelected: boolean\n  getSortIcon: (\n    column: InternalDataTableHeader,\n  ) =>\n    | string\n    | (string | [string, number])[]\n    | (new () => any)\n    | FunctionalComponent\n}"
     },
     {
       "name": "header.data-table-select",
       "description": "MISSING DESCRIPTION (edit in github)",
-      "description_zh": "缺少描述（在 github 中编辑）",
+      "description_zh": "MISSING DESCRIPTION (edit in github)",
       "params": "{\n  column: InternalDataTableHeader\n  selectAll: (value: boolean) => void\n  isSorted: (column: InternalDataTableHeader) => boolean\n  toggleSort: (column: InternalDataTableHeader) => void\n  sortBy: SortItem[]\n  someSelected: boolean\n  allSelected: boolean\n  getSortIcon: (\n    column: InternalDataTableHeader,\n  ) =>\n    | string\n    | (string | [string, number])[]\n    | (new () => any)\n    | FunctionalComponent\n}"
     },
     {
       "name": "headers",
       "description": "MISSING DESCRIPTION (edit in github)",
-      "description_zh": "缺少描述（在 github 中编辑）",
+      "description_zh": "MISSING DESCRIPTION (edit in github)",
       "params": "{\n  headers: InternalDataTableHeader[][]\n  columns: InternalDataTableHeader[]\n  sortBy: SortItem[]\n  someSelected: boolean\n  allSelected: boolean\n  toggleSort: (column: InternalDataTableHeader) => void\n  selectAll: (value: boolean) => void\n  getSortIcon: (\n    column: InternalDataTableHeader,\n  ) =>\n    | string\n    | (string | [string, number])[]\n    | (new () => any)\n    | FunctionalComponent\n  isSorted: (column: InternalDataTableHeader) => boolean\n}"
     },
     {
       "name": "loader",
       "description": "Slot for custom loader (displayed when loading prop is equal to true).",
-      "description_zh": "自定义加载器的插槽（当加载 prop 等于 true 时显示）。",
+      "description_zh": "Slot for custom loader (displayed when loading prop is equal to true).",
       "params": "{ color: string; isActive: boolean }"
     }
   ],

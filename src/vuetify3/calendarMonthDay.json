@@ -53,25 +53,25 @@
     {
       "name": "content",
       "description": "Slot for custom content related to the day in the month view.",
-      "description_zh": "与月视图中的日期相关的自定义内容的插槽。",
+      "description_zh": "Slot for custom content related to the day in the month view.",
       "params": ""
     },
     {
       "name": "default",
       "description": "The default Vue slot.",
-      "description_zh": "默认的 Vue 插槽。",
+      "description_zh": "The default Vue slot.",
       "params": ""
     },
     {
       "name": "event",
       "description": "MISSING DESCRIPTION (edit in github)",
-      "description_zh": "缺少描述（在 github 中编辑）",
+      "description_zh": "MISSING DESCRIPTION (edit in github)",
       "params": "{ day: Object; allDay: boolean; event: Record<string, unknown> }"
     },
     {
       "name": "title",
       "description": "Slot for the component’s title content.",
-      "description_zh": "组件标题内容的插槽。",
+      "description_zh": "Slot for the component’s title content.",
       "params": "{ title: string | number }"
     }
   ]

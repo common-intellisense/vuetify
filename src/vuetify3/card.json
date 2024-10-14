@@ -250,61 +250,61 @@
     {
       "name": "actions",
       "description": "The slot used for the card actions; located at the bottom of the card.",
-      "description_zh": "用于卡操作的插槽;位于卡片底部。",
+      "description_zh": "The slot used for the card actions; located at the bottom of the card.",
       "params": ""
     },
     {
       "name": "append",
       "description": "Adds an item inside the input and after input content.",
-      "description_zh": "在 input 内容内和 After input 内容中添加一个项目。",
+      "description_zh": "Adds an item inside the input and after input content.",
       "params": ""
     },
     {
       "name": "default",
       "description": "The default Vue slot.",
-      "description_zh": "默认的 Vue 插槽。",
+      "description_zh": "The default Vue slot.",
       "params": ""
     },
     {
       "name": "image",
       "description": "The slot used for the card image. This is used with the image prop.",
-      "description_zh": "用于卡映像的插槽。这与 image 属性一起使用。",
+      "description_zh": "The slot used for the card image. This is used with the image prop.",
       "params": ""
     },
     {
       "name": "item",
       "description": "Define a custom item appearance.",
-      "description_zh": "定义自定义项外观。",
+      "description_zh": "Define a custom item appearance.",
       "params": ""
     },
     {
       "name": "loader",
       "description": "Slot for custom loader (displayed when loading prop is equal to true).",
-      "description_zh": "自定义加载器的插槽（当加载 prop 等于 true 时显示）。",
+      "description_zh": "Slot for custom loader (displayed when loading prop is equal to true).",
       "params": "{ color: string; isActive: boolean }"
     },
     {
       "name": "prepend",
       "description": "Adds an item outside the input and before input content.",
-      "description_zh": "在输入内容之外和之前添加项目。",
+      "description_zh": "Adds an item outside the input and before input content.",
       "params": ""
     },
     {
       "name": "subtitle",
       "description": "Slot for the component’s subtitle content.",
-      "description_zh": "组件字幕内容的插槽。",
+      "description_zh": "Slot for the component’s subtitle content.",
       "params": ""
     },
     {
       "name": "text",
       "description": "Slot for the component’s text content.",
-      "description_zh": "组件文本内容的插槽。",
+      "description_zh": "Slot for the component’s text content.",
       "params": ""
     },
     {
       "name": "title",
       "description": "Slot for the component’s title content.",
-      "description_zh": "组件标题内容的插槽。",
+      "description_zh": "Slot for the component’s title content.",
       "params": ""
     }
   ],

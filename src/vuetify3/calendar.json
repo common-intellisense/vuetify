@@ -294,13 +294,13 @@
     {
       "name": "event",
       "description": "MISSING DESCRIPTION (edit in github)",
-      "description_zh": "缺少描述（在 github 中编辑）",
+      "description_zh": "MISSING DESCRIPTION (edit in github)",
       "params": "{ day: Object; allDay: boolean; event: Record<string, unknown> }"
     },
     {
       "name": "header",
       "description": "Slot for custom header content.",
-      "description_zh": "自定义标题内容的插槽。",
+      "description_zh": "Slot for custom header content.",
       "params": "{ title: string }"
     }
   ],
