@@ -372,6 +372,14 @@
       "description_zh": "在组中选择项时发出的事件。",
       "params": "[{ value: boolean }]",
       "value": ""
+    },
+    {
+      "name": "click",
+      "description": "Event that is emitted when the component is clicked.",
+      "description_zh": "在单击组件时发出的事件。",
+      "params": "MouseEvent",
+      "value": "",
+      "required": true
     }
   ],
   "methods": [],

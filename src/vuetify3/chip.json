@@ -256,7 +256,8 @@
       "description": "Emitted when close icon is clicked.",
       "description_zh": "单击关闭图标时发出。",
       "params": "[MouseEvent]",
-      "value": ""
+      "value": "",
+      "required": true
     },
     {
       "name": "clickOnce",
