@@ -28,11 +28,11 @@
       "description_zh": "启用自动对焦。",
       "required": false
     },
-    "auto-select-firstNew": {
+    "auto-select-first": {
       "default": "false",
       "value": "",
       "type": "boolean / exact",
-      "version": "in v3.3.0",
+      "version": "v3.3.0",
       "description": "When searching, will always highlight the first option and select it on blur. exact will only highlight and select exact matches.",
       "description_zh": "搜索时，将始终高亮显示第一个选项并在模糊时选择它。exact 将仅突出显示并选择 exact matches。",
       "required": false

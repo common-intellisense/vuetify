@@ -154,11 +154,11 @@
       "description_zh": "指定应用于组件的 border-radius。这可以是 0、xs、sm、true、lg、xl、pill、circle 和 shaped。在 Border Radius 页面上查找有关可用边界半径类的更多信息。",
       "required": false
     },
-    "scroll-behaviorNew": {
+    "scroll-behavior": {
       "default": "undefined",
       "value": "",
       "type": "  | (string & {})  | 'hide'  | 'fully-hide'  | 'inverted'  | 'collapse'  | 'elevate'  | 'fade-image'",
-      "version": "in v3.2.0",
+      "version": "v3.2.0",
       "description": "Specify an action to take when the scroll position of scroll-target reaches scroll-threshold. Accepts any combination of hide, inverted, collapse, elevate, and fade-image. Multiple values can be used, separated by a space.",
       "description_zh": "指定当 scroll-target 的滚动位置达到 scroll-threshold 时要执行的操作。接受隐藏、反转、折叠、提升和淡化图像的任意组合。可以使用多个值，用空格分隔。",
       "required": false

@@ -381,19 +381,22 @@
       "params": "{\n  id: ComputedRef<string>\n  messagesId: ComputedRef<string>\n  isDirty: ComputedRef<boolean>\n  isDisabled: ComputedRef<boolean>\n  isReadonly: ComputedRef<boolean>\n  isPristine: Ref<boolean>\n  isValid: ComputedRef<boolean | null>\n  isValidating: Ref<boolean>\n  reset: () => void\n  resetValidation: () => void\n  validate: () => void\n}"
     },
     {
-      "name": "thumbNew in v3.5.0",
+      "name": "thumb",
+      "version": " v3.5.0",
       "description": "Slot for custom thumb content.",
       "description_zh": "用于自定义 Thumb 内容的插槽。",
       "params": "{\n  icon:\n    | string\n    | (string | [string, number])[]\n    | (new () => any)\n    | FunctionalComponent\n} & { model: Ref<boolean>; isValid: ComputedRef<boolean | null> }"
     },
     {
-      "name": "track-falseNew in v3.5.0",
+      "name": "track-false",
+      "version": "v3.5.0",
       "description": "Slot for custom track content when value is false.",
       "description_zh": "当 value 为 false 时，自定义轨道内容的插槽。",
       "params": "{ model: Ref<boolean>; isValid: ComputedRef<boolean | null> }"
     },
     {
-      "name": "track-trueNew in v3.5.0",
+      "name": "track-true",
+      "version": "v3.5.0",
       "description": "Slot for custom track content when value is true.",
       "description_zh": "当值为 true 时，自定义轨道内容的插槽。",
       "params": "{ model: Ref<boolean>; isValid: ComputedRef<boolean | null> }"

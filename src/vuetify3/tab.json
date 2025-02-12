@@ -280,11 +280,11 @@
       "description_zh": "指定根元素上使用的自定义标记。",
       "required": false
     },
-    "textNew": {
+    "text": {
       "default": "undefined",
       "value": "",
       "type": "string",
-      "version": "in v3.2.0",
+      "version": "v3.2.0",
       "description": "Specify content text for the component.",
       "description_zh": "指定组件的内容文本。",
       "required": false

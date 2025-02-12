@@ -46,11 +46,11 @@
       "description_zh": "在附加插槽中的默认内容之后创建一个 v 图标组件。",
       "required": false
     },
-    "base-colorNew": {
+    "base-color": {
       "default": "undefined",
       "value": "",
       "type": "string",
-      "version": "in v3.3.0",
+      "version": "v3.3.0",
       "description": "Sets the color of component when not focused.",
       "description_zh": "设置未聚焦时组件的颜色。",
       "required": false

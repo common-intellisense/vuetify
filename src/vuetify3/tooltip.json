@@ -91,11 +91,11 @@
       "description_zh": "删除单击组件或定位组件的功能。",
       "required": false
     },
-    "eagerNew": {
+    "eager": {
       "default": "true",
       "value": "",
       "type": "boolean",
-      "version": "in v3.2.0",
+      "version": "v3.2.0",
       "description": "Forces the component’s content to render when it mounts. This is useful if you have content that will not be rendered in the DOM that you want crawled for SEO.",
       "description_zh": "强制组件的内容在挂载时呈现。如果您的内容不会在 DOM 中呈现，并且您希望为 SEO 抓取，这将非常有用。",
       "required": false
